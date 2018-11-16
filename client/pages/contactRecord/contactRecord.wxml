@@ -1,0 +1,10 @@
+<!-- cantactRecord -->
+<scroll-view class="cantact-warp">
+  <view class="cantact" wx:for="{{contact}}" wx:key="index" bindtap="chatPage">
+    <image class="cantact-avatar" src="{{item.avatar}}"></image>
+    <view class="cantact-right">
+      <view class="nickname">{{item.nickname}}</view>
+      <view class="msg">{{item.msg}}</view>
+    </view>
+  </view>
+</scroll-view>

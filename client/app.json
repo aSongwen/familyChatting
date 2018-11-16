@@ -1,13 +1,45 @@
 {
   "pages":[
+    "pages/contactRecord/contactRecord",
     "pages/index/index",
     "pages/addCgi/addCgi"
   ],
   "window":{
-    "backgroundColor":"#F6F6F6",
+    "backgroundColor":"#ffffff",
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarBackgroundColor": "#1D1C21",
     "navigationBarTitleText": "Wafer Quick Start",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "backgroundColor":"#F6F6F6",
+    "selectedColor":"#1FAA1B",
+    "borderStyle":"black",
+    "list":[
+      {
+        "pagePath": "pages/contactRecord/contactRecord",
+        "text":"闲聊",
+        "iconPath":"icon/chat.png",
+        "selectedIconPath":"icon/sel_chat.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text":"通讯录",
+        "iconPath":"icon/address.png",
+        "selectedIconPath":"icon/sel_address.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text":"发现",
+        "iconPath":"icon/discover.png",
+        "selectedIconPath":"icon/sel_discover.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text":"我",
+        "iconPath":"icon/my.png",
+        "selectedIconPath":"icon/sel_my.png"
+      }
+    ]
   }
 }
